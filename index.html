@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pekara Anton - Najbolje pecivo u Nišu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#pocetna">
+                        <img src="img/anton-logo.avif" alt="Anton Pekara Logo" class="logo-image">
+                    </a>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#pocetna" class="nav-link">Početna</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link">Kompanija</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#o-nama">O nama</a></li>
+                                <li><a href="#kontakt">Kontakt</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link">Proizvodi</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#proizvodi">Hleb i belo pecivo</a></li>
+                                <li><a href="#proizvodi">Burek i pitice</a></li>
+                                <li><a href="#proizvodi">Lisnato pecivo</a></li>
+                                <li><a href="#proizvodi">Slatki proizvodi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#galerija" class="nav-link">Galerija</a></li>
+                        <li class="nav-item"><a href="#kontakt" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="pocetna">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Dobrodošli u Pekaru Anton</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Tradicionalno pecivo svakog dana</p>
+            <a href="#proizvodi" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">Pogledajte naše proizvode</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="o-nama">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="img/anton-img-1.jpg" alt="Pekara Anton" loading="lazy">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <h2 class="section-title">O nama</h2>
+                    <div class="title-underline"></div>
+                    <p class="about-text">
+                        Pekara Anton je porodična pekara koja već godinama donosi miris svežeg hleba u Niš. 
+                        Naša filozofija je jednostavna - koristimo samo najkvalitetnije sastojke i tradicionalne 
+                        recepte koji se prenose generacijama.
+                    </p>
+                    <p class="about-text">
+                        Svaki dan pečemo sveže pecivo sa ljubavlju i pažnjom prema svakom detalju. 
+                        Od ranog jutra, naši majstori pekari rade da vam pruže najbolje proizvode koji će 
+                        obradovati vaše nepce.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">Sveže svaki dan</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">Tradicionalni recepti</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">Kvalitetni sastojci</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="proizvodi">
+        <div class="container">
+            <h2 class="section-title centered" data-aos="fade-up">Naši proizvodi</h2>
+            <div class="title-underline centered"></div>
+            <p class="section-subtitle" data-aos="fade-up">Sve što vam treba za perfektan dan</p>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="product-image">
+                        <img src="img/anton-food-1.avif" alt="Hleb i belo pecivo" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Hleb i belo pecivo</h3>
+                        <p class="product-description">Tradicionalni hleb, kiflice i sve vrste belog peciva pečeni po starim receptima.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="img/anton-food-2.avif" alt="Burek i pitice" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Burek i pitice</h3>
+                        <p class="product-description">Sočan burek sa mesom, sirom, krompirom i razne vrste slanih pita.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="img/anton-food-3.avif" alt="Lisnato pecivo" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Lisnato pecivo</h3>
+                        <p class="product-description">Hrskavo lisato pecivo, kroasani i štanglice sa raznim nadevima.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="img/anton-food-4.avif" alt="Slatki proizvodi" loading="lazy">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Slatki proizvodi</h3>
+                        <p class="product-description">Kolači, torte, krofne i drugi slatki zalogaji za pravo uživanje.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality">
+        <div class="container">
+            <div class="quality-grid">
+                <div class="quality-item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="quality-icon">🌾</div>
+                    <h3 class="quality-title">Kvalitetni sastojci</h3>
+                    <p class="quality-text">Koristimo samo najkvalitetnije sastojke od proverenih dobavljača</p>
+                </div>
+                <div class="quality-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quality-icon">👨‍🍳</div>
+                    <h3 class="quality-title">Iskusni majstori</h3>
+                    <p class="quality-text">Naši majstori pekari imaju dugogodišnje iskustvo i strast prema svom poslu</p>
+                </div>
+                <div class="quality-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quality-icon">⏰</div>
+                    <h3 class="quality-title">Sveže svaki dan</h3>
+                    <p class="quality-text">Proizvodimo sveže pecivo svaki dan od najranijih jutarnjih sati</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galerija">
+        <div class="container">
+            <h2 class="section-title centered" data-aos="fade-up">Naša pekara</h2>
+            <div class="title-underline centered"></div>
+            <p class="section-subtitle" data-aos="fade-up">Pogledajte našu modernu pekaru i prostor</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
+                    <img src="img/anton-img-1.jpg" alt="Pekara Anton - Slika 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="img/anton-img-2.jpg" alt="Pekara Anton - Slika 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="img/anton-img-3.jpg" alt="Pekara Anton - Slika 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="0">
+                    <img src="img/anton-img-4.jpg" alt="Pekara Anton - Slika 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="img/anton-img-5.jpg" alt="Pekara Anton - Slika 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="img/anton-img-6.jpg" alt="Pekara Anton - Slika 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="kontakt">
+        <div class="container">
+            <h2 class="section-title centered" data-aos="fade-up">Kontaktirajte nas</h2>
+            <div class="title-underline centered"></div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Adresa</h3>
+                            <p>Niš, Srbija</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>Pozovite nas</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h3>Radno vreme</h3>
+                            <p>Svakog dana od 06:00 - 22:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🚚</div>
+                        <div>
+                            <h3>Dostava</h3>
+                            <p>Poručite preko Wolt aplikacije</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Vaše ime" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Email adresa" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-input" placeholder="Telefon">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" rows="5" placeholder="Vaša poruka" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Pošaljite poruku</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Pekara Anton</h3>
+                    <p class="footer-text">Tradicionalno pecivo iz srca Niša</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Linkovi</h4>
+                    <ul class="footer-links">
+                        <li><a href="#pocetna">Početna</a></li>
+                        <li><a href="#o-nama">O nama</a></li>
+                        <li><a href="#proizvodi">Proizvodi</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Poručite online</h4>
+                    <p class="footer-text">Naručite naše proizvode preko Wolt aplikacije</p>
+                    <a href="https://wolt.com/sr/srb/nis/venue/pekara-anton" target="_blank" class="btn btn-secondary">Poruči na Wolt</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pekara Anton. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
